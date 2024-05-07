@@ -9,6 +9,7 @@ public class ForStructure {
         System.out.println("i: " + i + ", fatorial: " + fatorial);
         fatorial = fatorial * i;
     }
+    System.out.println(fatorial);
     }
     
     
