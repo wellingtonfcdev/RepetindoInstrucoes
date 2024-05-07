@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class WhileStructure {
     public static void main(String[] args)  {
         
         int numero = 7, tentativas = 5;
