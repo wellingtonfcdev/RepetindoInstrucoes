@@ -2,7 +2,7 @@
 
 public class ForStructure {
     public static void main(String[] args) {
-        int n = 3;
+        int n = 7;
     int fatorial = 1;
 
     for(int i = 1; i <= n; i++){
