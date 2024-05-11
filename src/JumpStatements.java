@@ -12,16 +12,34 @@ public class JumpStatements {
         //}
 
         //Break
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
+        // while (true) {
+        //     System.out.println("Digite um número");
+
+        //     int numero = scanner.nextInt();
+
+        //     if(numero == 1)
+        //     break;
+        // }
+        // System.out.println("Ufa, acabou");
+        // scanner.close();
+
+        //return
+         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println("Digite um número");
 
             int numero = scanner.nextInt();
 
-            if(numero == 1)
-            break;
+            if(numero == 1){
+                System.out.println("Ufa, acabou");
+                scanner.close();
+                return;// finaliza o método
+            }
+            
         }
-        System.out.println("Ufa, acabou");
-        scanner.close();
+        
+        
+
     }
 }
