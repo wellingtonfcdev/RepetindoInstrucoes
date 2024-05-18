@@ -9,7 +9,7 @@ public class Exercicio1 {
         int numero = 1;
 
         while (numero <= 10) {
-            System.err.println("Número :" + numero);
+            System.err.println(numero);
             numero++;
         }
     }
